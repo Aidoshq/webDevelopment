@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  #ffe1fd;
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper .wrapper-phone {
+    position: relative;
+}
+
+.wrapper .wrapper-phone .wrapper-phone-screen {
+    position: absolute;
+    left: 150px;
+    top: 100px;
+}
+
+.wrapper .wrapper-form .wrapper-form-panel {
+    width: 350px;
+    background-color: #fbf9fb;
+    border: 1px solid #dedede;
+    border-radius: 2px;
+    padding: 20px 40px;
+    margin: 5px 0;
+    display: flex;
+}
+
+.wrapper .wrapper-form .wrapper-form-login {
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper .wrapper-form .wrapper-form-login #logo {
+    width: 65%;
+    margin: 20px 0 30px 0;
+}
+
+.wrapper .wrapper-form .wrapper-form-login form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper .wrapper-form .wrapper-form-login form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fcebeb;
+    border: 1px solid #dedede;
+    border-radius: 2px;
+}
+
+.wrapper .wrapper-form .wrapper-form-login form input:focus {
+    outline: none;
+    border: 1px solid #8a8a8a;
+}
+
+.wrapper .wrapper-form .wrapper-form-login form button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 7px;
+    background-color: #ff93ef;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.wrapper .wrapper-form .wrapper-form-login .wrapper-form-login-or {
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 12px;
+    color: #8a8a8a;
+    font-weight: bold;
+    gap: 20px;
+}
+
+.wrapper .wrapper-form .wrapper-form-login .wrapper-form-login-or .line {
+    flex: 1;
+    height: 1px;
+    background-color: #8a8a8a;
+}
+
+.facebook {
+    margin: 20px 0;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.forgot {
+    text-decoration: none;
+    font-size: 12px;
+    color: #000;
+}
+
+.wrapper .wrapper-form .wrapper-form-signup {
+    justify-content: center;
+    gap: 5px;
+    font-size: 12px;
+}
+
+.wrapper .wrapper-form .wrapper-form-signup a {
+    text-decoration: none;
+    color: blue;
+}
+
+.wrapper .wrapper-form .wrapper-form-apps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+.wrapper .wrapper-form .wrapper-form-apps .wrapper-form-apps-img {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.wrapper .wrapper-form .wrapper-form-apps .wrapper-form-apps-img img {
+    width: 140px;
+    height: auto;
+}
+
+footer ol {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    list-style: none;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+footer ol li, a {
+    text-decoration: none;
+    color: #8a8a8a;
+}

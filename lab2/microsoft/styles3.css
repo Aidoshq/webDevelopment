@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 90%;
+    height: 55px;
+    color: rgb(56, 56, 56);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-left: 5%;
+}
+
+header button {
+    height: 50px;
+    padding: 4px;
+    background-color: white;
+    border: none;
+    margin: 3px;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(56, 56, 56);
+}
+
+header .left-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header .left-side .logo img {
+    width: 154px;
+    height: 54px;
+}
+
+header .right-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header .right-side .products select {
+    border: none;
+    background-color: white;
+    color: rgb(56, 56, 56);
+    font-size: 14px;
+}
+
+header .right-side .search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 13px;
+}
+
+header .right-side .search img {
+    width: 16px;
+    margin-left: 7px;
+    margin-bottom: -2px;
+}
+
+header .right-side .login button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header .right-side .login img {
+    margin-left: 12px;
+    width: 32px;
+}
+
+header .right-side .login a {
+    text-decoration: none;
+    color: rgb(56, 56, 56);
+}
+
+main {
+    width: 90%;
+    margin-left: 5%;
+    height: 100%;
+}
+
+.big {
+    background-image: url('C:/Users/Aidana/Documents/big.png');
+    height: 515px;
+    padding-left: 64px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: center;
+}
+
+.big .p1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(56, 56, 56);
+    width: 400px;
+    margin-bottom: 16px;
+}
+
+.big .p2 {
+    color: rgb(56, 56, 56);
+    width: 600px;
+    margin-bottom: 20px;
+}
+
+.big #black {
+    font-size: 16px;
+    padding: 0 24px 0 24px;
+    height: 40px;
+    width: 280px;
+    background-color: rgb(56, 56, 56);
+    border: none;
+}
+
+.big #white {
+    font-size: 16px;
+    padding: 0 24px 0 24px;
+    height: 40px;
+    width: 280px;
+    border: none;
+    background-color: rgb(232, 235, 235)
+}
+
+.big button #six {
+    text-decoration: none;
+    color: white;
+}
+
+.big button #one {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    width: 90%;
+    margin-left: 5%;
+    height: 500px;
+    margin-top: 44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer .frame {
+    width: 320px;
+}
+
+footer .frame img {
+    width: 320px;
+    margin-bottom: 30px;
+}
+
+footer .frame button {
+    text-align: left;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+}
+
+footer .frame-links {
+    display: flex;
+    flex-direction: row;
+}
+
+footer .frame-links a {
+    margin-right: 20px;
+    text-decoration: none;
+    color:rgb(31, 113, 168);
+    font-weight: 600;
+}
+
+footer .frame #bigger-p {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+footer .frame #med-p {
+    font-size: 16px;
+    margin-bottom: 12px;
+}
